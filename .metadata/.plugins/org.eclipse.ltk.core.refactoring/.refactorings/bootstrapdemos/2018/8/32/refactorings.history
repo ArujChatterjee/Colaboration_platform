@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;images&apos;&#x0D;&#x0A;- Original project: &apos;bootstrapdemos&apos;&#x0D;&#x0A;- Destination element: &apos;images&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     second.jpg&#x0D;&#x0A;     fourth.jpg&#x0D;&#x0A;     first.jpg&#x0D;&#x0A;     third.jpg&#x0D;&#x0A;     niit1.jpg" description="Copy files" element1="WebContent/images/second.jpg" element2="WebContent/images/fourth.jpg" element3="WebContent/images/first.jpg" element4="WebContent/images/third.jpg" element5="WebContent/images/niit1.jpg" files="5" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1533634159877" target="/frontendp/src/main/webapp/WEB-INF/resources/images" units="0" version="1.0"/>
+</session>

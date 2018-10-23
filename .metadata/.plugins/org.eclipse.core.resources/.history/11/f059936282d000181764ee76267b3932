@@ -1,0 +1,87 @@
+package com.niit.models;
+
+
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Job_Table")
+public class Job {
+	@Id
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="sequence1")
+	@SequenceGenerator(name="sequence1", sequenceName="sequence1", allocationSize=1)
+	private int id;
+	@Column(nullable=false)
+	private String JobTitle;
+	private String JobDescription;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getJobTitle() {
+		return JobTitle;
+	}
+	public void setJobTitle(String jobTitle) {
+		JobTitle = jobTitle;
+	}
+	public String getJobDescription() {
+		return JobDescription;
+	}
+	public void setJobDescription(String jobDescription) {
+		JobDescription = jobDescription;
+	}
+	public String getSkillsRequired() {
+		return SkillsRequired;
+	}
+	public void setSkillsRequired(String skillsRequired) {
+		SkillsRequired = skillsRequired;
+	}
+	public String getSalary() {
+		return salary;
+	}
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+	public String getLocation() {
+		return location;
+	}
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	public String getCompanyName() {
+		return companyName;
+	}
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+	public String getYrsOfExp() {
+		return YrsOfExp;
+	}
+	public void setYrsOfExp(String yrsOfExp) {
+		YrsOfExp = yrsOfExp;
+	}
+	private String SkillsRequired;
+	private String salary;
+	private String location;
+	public Date getPostedon() {
+		return Postedon;
+	}
+	public void setPostedon(Date postedon) {
+		Postedon = postedon;
+	}
+	private String companyName;
+	private Date Postedon;
+	private String YrsOfExp;
+
+}

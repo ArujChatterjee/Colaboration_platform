@@ -1,0 +1,11 @@
+<span style="color:red">{{error.errorMessage}}</span>
+<div class="container" ng-show="user.role=='ADMIN'">
+<div class="panel panel-info">
+<div class="panel-heading">
+<b>Blog Post</b>
+<b>Blog Title:</b>{{blogPost.blogTitle}}<br>
+<b>Posted On:</b>{{blogPost.postedOn | date:'dd-MM-yyyy'}}<br>
+<b>Posted By:</b>{{blogPost.postedBy.firstname}} &nbsp; {{blogPost.postedBy.lastname}}<br>
+<b>Email:</b>{{blogPost.postedBy.email}}<br>
+<b>BlogContent</b>{{blogPost.blogContent}}<br>
+<button>Approve</button> &nbsp; <button>Reject</button>

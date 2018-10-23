@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+app.controller('PersonCtrl',function($scope,PersonService)
+{
+	PersonService.getAllPersons().then(function(response){
+		alert('success')
+		$scope.persons=response.data
+		console.log(response.data)
+        console.log(response.status)		
+		
+	},
+			
+			
+			
+			
+			function(response){
+		console.log(response.data)
+		console.log(response.status)
+		alert('error')
+		
+		
+	})
+	
+	
+	
+	})

@@ -1,0 +1,19 @@
+<span style="color:red">{{error.errorMessage}}</span>
+
+<form>
+Enter Job Title:<input type="text" ng-model="job.jobTitle"><br>
+Enter Job Description:<textarea type="text" ng-model="job.jobDescription"></textarea><br>
+<br>
+Enter Job Location:<input type="text" ng-model="job.location"><br>
+Enter Salary:<input type="text" ng-model="job.salary"><br>
+Enter Skills Required:<input type="text" ng-model="job.skillsRequired"><br>
+Enter Years of experience:<input type="text" ng-model="job.yrsOfExp"><br>
+Enter CompanyName:<input type="text" ng-model="job.companyName"><br>
+
+<button class="btn btn-info" ng-click="addJob(job)">ADD JOB</button>
+
+
+
+
+</form>
+</div>

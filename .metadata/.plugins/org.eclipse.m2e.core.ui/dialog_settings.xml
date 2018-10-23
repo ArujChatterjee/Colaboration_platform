@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\workspace_practice\angularjsdemos\WebContent\welcome.html"/>
+			<item value="F:\workspace_practice\backendp\src\test\java\com\niit\dao\ProductDaoImplTest.java"/>
+			<item value="F:\workspace_practice\beancreationdemo\src\main\java\com\niit\beancreationdemo\AnnotationbasedConfig.java"/>
+			<item value="F:\workspace_practice\mvcdemo\src\main\webapp\WEB-INF\views\welcomePage.jsp"/>
+			<item value="F:\workspace_practice\beancreationdemo\src\main\java\com\niit\dependencydemo\Driver.java"/>
+			<item value="F:\workspace_practice\TempConversionUser\src\main\java\com\niit\TempConversionUser\App.java"/>
+			<item value="F:\workspace_practice\project1frontend\src\main\webapp\WEB-INF"/>
+			<item value="F:\workspace_practice\frontendp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.niit.backendcruddemo"/>
+			<item value="com.niit.frontendp"/>
+			<item value="com.niit.s190038backend"/>
+			<item value="com.niit"/>
+			<item value="com.niit.backendpracticedemo"/>
+			<item value="com.niit.ecommercefrontend"/>
+			<item value="com.niit.mvcdemo"/>
+			<item value="com.niit.beancreationdemo"/>
+			<item value="com.niit.TempConversionUser"/>
+			<item value="com.niit.temperatureconversion"/>
+		</list>
+		<list key="groupId">
+			<item value="com.niit"/>
+		</list>
+		<list key="artifactId">
+			<item value="backendcruddemo"/>
+			<item value="frontendp"/>
+			<item value="s190038backend"/>
+			<item value="backendpracticedemo"/>
+			<item value="ecommercefrontend"/>
+			<item value="mvcdemo"/>
+			<item value="beancreationdemo"/>
+			<item value="TempConversionUser"/>
+			<item value="temperatureconversion"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

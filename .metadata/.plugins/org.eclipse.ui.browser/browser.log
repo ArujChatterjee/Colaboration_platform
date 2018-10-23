@@ -1,0 +1,77 @@
+
+Jul 16, 2018 12:12:14.35 NEW SESSION
+Jul 16, 2018 12:12:14.35 [Ch[Child 1008ild0 81, Chrome_64,C Chilhrome_ChidThlread] dTWhrARead] NIWARNNG: pipe errIor: NG109:: pipe  error: 1f09: file ilez: z:/b/buuild/build/src/iipc/ldch/buroilmid/umsrc/ipc/chromium//srsc/rc/chrchrome/commome/comon/ipc_channelmo_winn/i.cc, plic_chane 346nn
+Jul 16, 2018 12:12:14.35 el_win.cc, line 346[C
+Jul 16, 2018 12:12:14.35 hild [Ch10080, ild 8164,Chr Chroomem_ChildThreade_Ch] WAildThread]RNIN G: pipe WARNeINGrror:: 109 : file pipez:/ errbuilor: d/bu109:ild/ srcf/ipile z:/buic/chromium/sld/brc/uchriomel/codmmo/src/ipc/cn/hroimiupc_cmhan/nels_win.cc,rc/c line 346
+Jul 16, 2018 12:12:14.35 hrome/common/ipc_channel_win.cc, line 346
+Jul 16, 2018 12:12:14.50 [Parent 13264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 16, 2018 12:12:14.62 [Child 9496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 16, 2018 12:12:15.70 [Child 9496, Chrome_ChildThread]
+Jul 16, 2018 12:12:15.70 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 16, 2018 12:12:15.70 
+
+Jul 16, 2018 20:51:58.94 NEW SESSION
+Jul 16, 2018 20:51:58.94 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 16, 2018 23:26:47.21 [Child 9628, MediaPlayback #7] WARNING: Decoder=211d42635c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 16, 2018 23:26:47.24 [Child 9628, MediaPlayback #6] WARNING: Decoder=211d42635c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 16, 2018 23:26:47.24 [Child 9628, MediaPlayback #5] WARNING: Decoder=211d42635c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.09 [Child 5600, MediaPlayback #3] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.12 [Child 5600, MediaPlayback #3] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.12 [Child 5600, MediaPlayback #4] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.12 [Child 5600, MediaPlayback #4] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.12 [Child 5600, MediaPlayback #1] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:39:48.13 [Child 5600, MediaPlayback #2] WARNING: Decoder=189819b05c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 24:42:59.33 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:03:52.62 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:26:06.36 [Child 5600, MediaPlayback #1] WARNING: Decoder=18980fb7a60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 01:26:06.36 [Child 5600, MediaPlayback #1] WARNING: Decoder=18980fb7a60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 01:26:06.38 [Child 5600, MediaPlayback #4] WARNING: Decoder=18980fb7a60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - class RefPtr<class mozilla::MozPromise<class RefPtr<class mozilla::MediaTrackDemuxer::SamplesHolder>,class mozilla::MediaResult,1> > __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int): manager is detached.: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Jul 17, 2018 01:31:06.57 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:06.57 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:06.63 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:06.63 [Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:06.64 [Child 5600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:06.65 [Child 11936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:07.21 [Child 11936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/[Parent 2448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2018 01:31:08.83 [Child 7424, Chrome_ChildThre
+Jul 17, 2018 01:31:08.86 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2018 01:31:08.86 
+
+Jul 27, 2018 01:27:25.75 NEW SESSION
+Jul 27, 2018 01:27:25.75 [Parent 12672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 01:27:25.86 [Parent 12672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 01:27:25.86 [Parent 12672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 01:27:25.86 [Parent 12672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 01:27:25.86 [Parent 12672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 01:27:25.88 [Child 11704, Chrome_ChildThrea[Child 4908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chan[nel_win.Chicc, ld 1line54 346
+Jul 27, 2018 01:27:25.88 8, Chrome_ChildThread] W[ChARNING: pipe error: 109: ild f490i8, lChrome z:/build/e_Cbuihild/ldThs[Crc/hild ipc/c1335hrom2, Chrium/ome_ChisldThrcread/chro] WARNING: pime/cpe erroormmon/: 10ipc_ch9: fileannel_wi z:/bn.ccuild/bu, liild/ne 3src/ipc/chr46
+Jul 27, 2018 01:27:25.88 omium/src/c[Chhildr 154ome/common/ipc_cha8, Chrnomne_Cheildl_win.cc, line 346
+Jul 27, 2018 01:27:26.70 [Child 13352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/c
+Jul 27, 2018 01:27:26.70 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 27, 2018 01:27:26.70 
+
+Jul 27, 2018 11:32:11.13 NEW SESSION
+Jul 27, 2018 11:32:11.13 _create_dc_and_bitmap: The operation completed successfully.
+Jul 27, 2018 11:32:11.20 
+Jul 27, 2018 11:32:11.20 _create_dc_and_bitmap: The handle is invalid.
+Jul 27, 2018 11:32:11.20 
+Jul 27, 2018 11:33:11.08 [Parent 6576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 11:33:11.08 [Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 27, 2018 11:38:12.56 [Child 11028, Chrome_ChildThread] WARNING: [Child 14276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Oct 08, 2018 22:53:27.71 NEW SESSION
+Oct 08, 2018 22:53:27.97 [9688:8660:1008/225327.464:ERROR:cache_util_win.cc(19)] Unable to move the cache: 5
+Oct 08, 2018 22:53:28.77 [9688:8660:1008/225327.464:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Oct 08, 2018 22:53:28.77 [9688:8660:1008/225327.464:ERROR:disk_cache.cc(168)] Unable to create cache
+Oct 08, 2018 22:53:28.77 [9688:8660:1008/225327.464:ERROR:shader_disk_cache.cc(620)] Shader Cache Creation failed: -2
+Oct 08, 2018 22:53:43.86 [9072:1776:1008/225343.869:ERROR:cache_util_win.cc(19)] Unable to move the cache: 5
+Oct 08, 2018 22:53:43.86 [9072:1776:1008/225343.869:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Oct 08, 2018 22:53:43.86 [9072:1776:1008/225343.869:ERROR:disk_cache.cc(168)] Unable to create cache
+Oct 08, 2018 22:53:43.86 [9072:1776:1008/225343.869:ERROR:shader_disk_cache.cc(620)] Shader Cache Creation failed: -2
+
+Oct 10, 2018 23:02:37.32 NEW SESSION
+Oct 10, 2018 23:02:37.89 [12596:10732:1010/230236.761:ERROR:cache_util_win.cc(19)] Unable to move the cache: 5
+Oct 10, 2018 23:02:38.32 [12596:10732:1010/230236.766:ERROR:cache_util.cc(140)] Unable to move cache folder C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\Ashoj\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Oct 10, 2018 23:02:38.42 [12596:10732:1010/230236.861:ERROR:disk_cache.cc(168)] Unable to create cache
+Oct 10, 2018 23:02:38.42 [12596:10732:1010/230236.861:ERROR:shader_disk_cache.cc(620)] Shader Cache Creation failed: -2
+Oct 10, 2018 23:02:50.10 Created new window in existing browser session.

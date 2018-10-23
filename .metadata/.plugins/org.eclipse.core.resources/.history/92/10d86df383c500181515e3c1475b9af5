@@ -1,0 +1,54 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+app.controller('PersonCtrl',function($scope,PersonService)
+{
+	PersonService.getAllPersons().then(function(response){
+		alert('success')
+		$scope.persons=response.data
+		console.log(response.data)
+        console.log(response.status)		
+		
+	},
+			
+			
+			
+			
+			function(response){
+		
+		alert('error')
+		console.log(response.data)
+		console.log(response.status)
+		
+		
+		
+	})
+	
+	$scope.savePerson=function(){
+		console.log($scope.person)
+		PersonService.savePerson($scope.person).then(function(response){
+		
+		$scope.person={}
+		alert('person details inserted successfully')
+		
+	},
+	function(response){
+		$scope.error=response.data
+		console.log(response.status)
+		$scope.person={}
+	})
+}
+	
+	$scope.deletePerson=function(id){
+		PersonService.deletePerson(id).then(function(response)
+				
+		{
+			alert('deleted person details successfully..')
+		},function(response){
+			$scope.error=response.data
+		})
+		}
+	})

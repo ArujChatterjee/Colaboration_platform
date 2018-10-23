@@ -1,0 +1,12 @@
+package com.niit.dao;
+
+import com.niit.models.BlogPost;
+
+public class BlogPostDaoImpl implements BlogPostDao {
+
+	public void addBlogPost(BlogPost blogPost) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

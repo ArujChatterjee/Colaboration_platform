@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript"
+ src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js">
+</script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</head>
+<body ng-app="app">
+<div ng-controller="WelcomeCtrl">
+{{welcomemessage}}
+<br>
+{{name}}<br>
+Today's Date:{{today| date:'yyyy:MM:dd:hh:mm:ss'}}<br>
+
+</div>
+
+</body>
+</html>

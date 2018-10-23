@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body ng-app="app">
+<div class="container">
+<a href="#/home">Home Page</a>
+<a href="#/students">Student details</a>&nbsp;
+<a href="#/employees">Employee details</a>&nbsp;
+<a href="#/departments">Department details</a>&nbsp;
+
+
+<div ng-view></div>
+
+
+
+</div>
+
+</body>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+	<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="controllers/studentcontroller.js"></script>
+		<script type="text/javascript" src="controllers/employeecontroller.js"></script>
+		<script type="text/javascript" src="controllers/departmentcontroller.js"></script>
+		</html>

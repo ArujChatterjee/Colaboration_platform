@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+app.controller('BlogInDetailCtrl',function($scope,BlogService,$location,$rootScope,$routeParams){
+var blogPostId=$routeParams.id
+
+if(blogPostId!=undefined)
+	{
+	BlogService.getBlog(blogPostId).then(function(response){
+	$scope.blogPost=response.data	
+	},function(response)
+	{
+		$scope.error=response.data
+		if(response.status==401)
+			$location.path('/login')
+	})
+	
+	}
+$scope.approve=function(blogPost)
+{
+BlogService.approve(blogPost).then(
+function(response)
+{
+	$location.path('/blogsWaitingForApproval/1')
+	},function(response)
+	{
+		if(response.status==401)
+			$location.path('/login')
+	}
+
+)	
+}
+
+
+
+})
+

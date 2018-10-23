@@ -1,0 +1,29 @@
+
+	<b>List of Persons</b>
+	<!-- GET DATA FROM FRONTEND CONTROLLER -->
+	<div ng-controller="PersonCtrl">
+		<table>
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>FIRSTNAME</th>
+					<th>LASTNAME</th>
+					<th>EMAIL</th>
+					<th>PHONENUMBER</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+           <tbody>
+           <tr ng-repeat="p in persons">
+           <td>{{p.id}}</td>
+           <td>{{p.firstname}}</td>
+           <td>{{p.lastname}}</td>
+           <td>{{p.email}}</td>
+           <td>{{p.phonenumber}}</td>
+           <td><a href="" ng-click="deletePerson(p.id)">Delete</a>
+           <a href="#/updateform/{{p.id}}">Update</a>
+           </td>
+           </tr>
+           </tbody>
+		</table>
+	</div>
